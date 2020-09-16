@@ -7,7 +7,7 @@
 #ifndef F2C_INCLUDE
 #define F2C_INCLUDE
 
-#if defined(__alpha__) || defined(__sparc64__) || defined(__x86_64__) || defined(__ia64__)
+#if defined(__alpha__) || defined(__sparc64__) || defined(__x86_64__) || defined(__ia64__) || defined(__aarch64__)
 typedef int integer;
 typedef unsigned int uinteger;
 #else
